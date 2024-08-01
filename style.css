@@ -1,0 +1,13 @@
+#container
+{
+
+    width: 1500px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+img{
+    border-radius: 25px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
