@@ -4,13 +4,51 @@
     height: 100px;
 }
 
+.individual {
+    font-style: oblique;
+    width: 500px;
+    height: 70px;
+    margin: auto;
+    margin-top: 145px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    color: #07e4e4;
+    background-color: #000000;
+}
+
+.individual:hover {
+    background: linear-gradient(0deg, #046A38 10%, #ffffff, #FF671F 100%);
+    color: #06038D;
+}
+
+.team {
+    font-style: oblique;
+    width: 500px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 3855px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    color: #07e4e4;
+    background-color: #000000;
+}
+
+.team:hover {
+    background: linear-gradient(0deg, #046A38 10%, #ffffff, #FF671F 100%);
+    color: #06038D;
+}
+
 .topnav {
     top: 0;
     width: 100%;
     overflow: hidden;
     background-color: #ffffff;
     position: fixed;
-
+    border-bottom: 0.1rem solid rgb(229, 229, 229);
+    z-index: 1;
 }
 
 .topnav a {
@@ -33,16 +71,16 @@
     color: #FCB131;
 }
 
-.topnav a.Contact:hover {
+.topnav a.category:hover {
     color: #000000;
 }
 
 .topnav a.About:hover {
-    color: #00A651;
+    color: #EE334E;
 }
 
-.topnav a.Green:hover {
-    color: #EE334E;
+.topnav a.info:hover {
+    color: #00A651;
 }
 
 #container {
@@ -57,6 +95,14 @@ img {
     width: 350px;
     height: 250px;
     padding: 10px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
 }
 
 .grid-container {
