@@ -1,45 +1,38 @@
-#logo_color {
+#logo {
     float: left;
     width: 100px;
     height: 100px;
 }
 
-.individual {
-    font-style: oblique;
+.mar{
+    padding: 7px;
+    margin-top: 120px;
+    color: #06038D;
+    background: linear-gradient(0deg, #046A38 5%, #ffffff, #FF671F 100%);
+}
+
+h5{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.type {
+    
     width: 500px;
     height: 70px;
     margin: auto;
-    margin-top: 145px;
     text-align: center;
-    border-radius: 30px;
-    border: 1px solid #000000;
-    color: #07e4e4;
     background-color: #000000;
-}
-
-.individual:hover {
-    background: linear-gradient(0deg, #046A38 10%, #ffffff, #FF671F 100%);
-    color: #06038D;
+    color:#05c0eb;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
 }
 
 .team {
-    font-style: oblique;
-    width: 500px;
-    padding: 1px;
-    margin: auto;
     margin-top: 3855px;
-    text-align: center;
-    border-radius: 30px;
-    border: 1px solid #000000;
-    color: #000000;
-    color: #07e4e4;
-    background-color: #000000;
 }
 
-.team:hover {
-    background: linear-gradient(0deg, #046A38 10%, #ffffff, #FF671F 100%);
-    color: #06038D;
-}
 
 .topnav {
     top: 0;
@@ -64,7 +57,6 @@
 
 .topnav a.Athletes:hover {
     color: #0081C8;
-
 }
 
 .topnav a.Summary:hover {
@@ -91,14 +83,14 @@
 }
 
 img {
-    border-radius: 25px;
     width: 350px;
     height: 250px;
     padding: 10px;
+    border-radius: 25px;
 }
 
 .zoom {
-    transition: transform .2s;
+    transition: transform 1s;
 }
 
 .zoom:hover {
