@@ -4,37 +4,43 @@
     height: 100px;
 }
 
-.mar{
+.mar {
     padding: 7px;
     margin-top: 120px;
     color: #06038D;
     background: linear-gradient(0deg, #046A38 5%, #ffffff, #FF671F 100%);
 }
 
-h5{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .type {
-    
+
     width: 500px;
     height: 70px;
     margin: auto;
     text-align: center;
-    background-color: #000000;
-    color:#05c0eb;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    border-radius: 30px;
+
 }
 
 .team {
     margin-top: 3855px;
 }
 
+button {
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: #228B22;
+}
 
-.topnav {
+button:hover {
+    padding: 3px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: black;
+    background-color: #0072b1;
+}
+
+
+.navbar {
     top: 0;
     width: 100%;
     overflow: hidden;
@@ -44,7 +50,7 @@ h5{
     z-index: 1;
 }
 
-.topnav a {
+.navbar a {
     color: #000000;
     display: inline-flex;
     font-size: 20px;
@@ -55,23 +61,23 @@ h5{
 
 }
 
-.topnav a.Athletes:hover {
+.navbar a.Athletes:hover {
     color: #0081C8;
 }
 
-.topnav a.Summary:hover {
+.navbar a.Summary:hover {
     color: #FCB131;
 }
 
-.topnav a.category:hover {
+.navbar a.category:hover {
     color: #000000;
 }
 
-.topnav a.About:hover {
+.navbar a.About:hover {
     color: #EE334E;
 }
 
-.topnav a.info:hover {
+.navbar a.info:hover {
     color: #00A651;
 }
 
@@ -82,14 +88,11 @@ h5{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-img {
+.zoom {
     width: 350px;
     height: 250px;
     padding: 10px;
     border-radius: 25px;
-}
-
-.zoom {
     transition: transform 1s;
 }
 
@@ -107,6 +110,7 @@ img {
 }
 
 .grid-item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #000000;
     padding: 20px;
     font-size: 30px;
@@ -114,4 +118,78 @@ img {
     text-align: center;
     align-content: center;
     justify-content: center;
+}
+
+.foot-container {
+    margin-top: 2000px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot-item {
+    display: flex;
+    padding: 5px;
+    line-height: 25px;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.foot-left {
+    text-align: center;
+}
+
+.author {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.aboutPage {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color: #535b6386;
+}
+
+.contactInfo {
+    display: inline-flex;
+}
+
+.footLogo {
+    width: 20px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.linkedInBtn {
+    padding: 3px;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #0072b1;
+}
+
+.linkedInBtn:hover {
+    padding: 3px;
+    border-radius: 7px;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    color: #fffdfd;
+    background-color: #363232;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
